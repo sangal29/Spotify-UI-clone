@@ -1,0 +1,30 @@
+body{
+    /* background-color: black;
+    color: white; */
+   
+}
+
+.left{
+    width: 25vw;
+}
+.right{
+   width: 75vw; 
+}
+.border{
+   border: 2px solid red ;
+   margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+
+justify-content: center;
+}
+.iteam-centre{
+
+    align-items: center;
+
+}
