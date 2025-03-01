@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     /* background-color: black;
     color: white; */
@@ -6,6 +11,7 @@ body{
 
 .left{
     width: 25vw;
+    padding: 34px;
 }
 .right{
    width: 75vw; 
@@ -26,5 +32,18 @@ justify-content: center;
 .iteam-centre{
 
     align-items: center;
+}
 
+/* home  image section  */
+
+.home ul li{
+    display: flex;
+    gap: 15px;
+    width: 14px;
+    list-style: none;
+}
+
+.bg-black{
+    color: white;
+    background-color: black;
 }
